@@ -1,6 +1,6 @@
 # Snowflake Text-to-SQL Agent
 
-A Streamlit chat app that uses an OpenAI model and three tools to inspect and query Snowflake's `SNOWFLAKE_SAMPLE_DATA.TPCH_SF1` sample schema.
+A Streamlit chat app that uses Gemini through Google's OpenAI-compatible API endpoint and three tools to inspect and query Snowflake's `SNOWFLAKE_SAMPLE_DATA.TPCH_SF1` sample schema.
 
 ## Included agent tools
 
@@ -12,7 +12,7 @@ A Streamlit chat app that uses an OpenAI model and three tools to inspect and qu
 
 - Python 3.10+
 - A Snowflake account with access to `SNOWFLAKE_SAMPLE_DATA.TPCH_SF1`
-- An OpenAI API key
+- A Gemini API key from Google AI Studio
 
 ## 2. Configure secrets
 
